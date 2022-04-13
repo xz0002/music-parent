@@ -1,0 +1,12 @@
+package com.lc.music;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MusicParentApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MusicParentApplication.class, args);
+    }
+}
